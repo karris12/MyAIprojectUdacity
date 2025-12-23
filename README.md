@@ -151,13 +151,3 @@ To use it:
 - Open the bedrock_utils.py file and the following function:
   - valid_prompt
 
-  Hint: categorize the user prompt
-
-## Troubleshooting
-
-- If you encounter permissions issues, ensure your AWS credentials have the necessary permissions for creating all the resources.
-- For database connection issues, check that the security group allows incoming connections on port 5432 from your IP address.
-- If S3 uploads fail, verify that your AWS credentials have permission to write to the specified bucket.
-- For any Terraform errors, ensure you're using a compatible version and that all module sources are correctly specified.
-
-For more detailed troubleshooting, refer to the error messages and logs provided by Terraform and the Python scripts.
